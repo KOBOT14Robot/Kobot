@@ -1,0 +1,4 @@
+sudo apt-get install ros-${ROS_DISTRO}-ros-gz
+sudo apt install python3 python3-pip
+pip3 install numpy
+ros2 launch ros_gz_sim gz_sim.launch.py gz_args:="shapes.sdf"
